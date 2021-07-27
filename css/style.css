@@ -1,0 +1,147 @@
+div,
+h1,
+h2,
+li,
+input,
+button {
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+body {
+	overflow: hidden;
+}
+
+.hidden {
+	display: none;
+}
+
+.bgImage {
+	width: 100vw;
+	height: 100vh;
+}
+
+#login-form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	width: 500px;
+}
+
+#login-text {
+	background-color: transparent;
+	border-bottom: 2px solid #fff;
+	width: 80%;
+	margin-top: 40px;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.login-button i{
+	font-size: 1.5rem;
+}
+
+#clock {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 5em;
+}
+
+#greeting {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#todo-form {
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 300px;
+}
+
+#todo-form input {
+	width: 100%;
+	background-color: transparent;
+	border-bottom: 2px solid #fff;
+	text-align: center;
+	font-size: 2rem;
+}
+
+#todo-list {
+	position: absolute;
+	top: 67%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 300px;
+}
+
+.todo-list-text {
+	text-align: center;
+}
+
+#todo-list li {
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#todo-list span,
+#todo-list button {
+	transition: all 200ms;
+}
+
+#todo-list button {
+	margin-left: 8px;
+	font-size: 15px;
+	width: 25px;
+	height: 25px;
+}
+
+#todo-list button:hover {
+	width: 25px;
+	height: 25px;
+	background-color: whitesmoke;
+	color: darkslateblue;
+	border-radius: 50%;
+}
+
+#quote {
+	position: absolute;
+	bottom: -18px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	transition: all 300ms ease;
+}
+
+#quote:hover {
+	bottom: 0px;
+	background-color: #00000070;
+	padding: 10px 15px;
+	border-radius: 15px 15px 0 0;
+}
+
+#quote span {
+	display: block;
+}
+
+#weather {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#weather span {
+	margin-bottom: 8px;
+}
+

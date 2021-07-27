@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentum</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form id="login-form" class="hidden">
+      <h2 class="login-maintext">Hello! What's your name ?</h2>
+      <input id="login-text" required maxlength="15" type="text" />
+      <button class="login-button">
+        <i class="fas fa-arrow-circle-up"></i>
+      </button>
+    </form>
+    <h2 id="clock">00:00:00</h2>
+    <h1 id="greeting" class="hidden"></h1>
+    <form id="todo-form" class="hidden">
+      <h2 class="todo-list-text">Write your to do list!</h2>
+      <input type="text" />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/717d5aad62.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
